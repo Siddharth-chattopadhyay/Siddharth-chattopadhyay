@@ -1,6 +1,7 @@
 I mostly do experiments with C++ features (like polymorphism) or network ports (default HTTP port is 80).
+I do other experiments like with termux and ADB.
 
-
+Here's the experiments below:
 ```js
 const childProcess = require("child_process");
 
