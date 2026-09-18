@@ -28,13 +28,13 @@ class TermuxSensor {
 };
 
 const http = require("http");
-const PORT = 32765;
+const PORT = 80; // This is the default port for HTTP
 const server = http.createServer((req, res) => {
 });
 
 const listened = server.listen(PORT);
 
 listened.on("listening", () => {
-    console.log('Server is listening at http://localhost:' + PORT);
+    console.log('Server is listening at http://127.0.0.1');
 });
 ```
