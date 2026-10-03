@@ -1,8 +1,8 @@
-I mostly do experiments with C++ features (like polymorphism, etc.) or network ports (default HTTP port is 80).
-I do other experiments like with termux and ADB.
+I mostly do experiments with ideas in my head and use any language I have knowledge about, like C++, bash or JavaScript. I also do other experiments like network ports (default HTTP port is 80), with termux, ADB and Cryptography. However, I have not mastered everything fully and still in learning journey (like learning about different APIs of that language.).
 
 Here's the experiments below:
 ```js
+// It's incomplete
 const childProcess = require("child_process");
 
 class TermuxSensor {
